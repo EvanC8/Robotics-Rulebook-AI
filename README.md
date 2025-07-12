@@ -50,3 +50,15 @@ uvicorn main:app --reload
 ### 3. Test the API
 
 Once both servers are running, you can test the API by visiting [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser.
+
+## How it works
+This project makes use of a Retrieval-Augmented Generation (RAG) architecture to retrieve accurate answers. Here's an overview of how it all works:
+1. The text is extracted from the chosen game manual pdf and is chunked into more managable segments.
+2. Each chunk is converted into an embedding (vector representation) using a sentence-transformer model, which are then stored into a ChromaDB vector database.
+3. When a user posts a question, the query is recieved and converted to an embedding.
+4. The application searches the vector database for chunks of text that align most with the user's question.
+5. The Gemini model is prompted with the user's question and the relevant manual chunks found.
+6. Gemini generates a solely context-based answer and refrains from answering questions it cannot deduce an answer to from the manual chunks.
+
+## Next steps
+* Create a React.js frontend and deploy the project.
