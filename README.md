@@ -1,5 +1,5 @@
 # AI Rulebook Q&A Bot - FIRST Robotics
-This is an AI-powered Question and Answer bot for the FIRST Tech Challenge 2024-2025 _Into the Deep_ Game Manual. Turn a ~150 page competition manual into a 
+This is an AI-powered Question and Answer bot for the FIRST Tech Challenge 2024-2025 _Into the Deep_ Game Manual, turning a ~150-page competition rulebook into a real-time Q&A resource.
 
 ## Usage Setup
 
