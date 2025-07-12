@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Local database data
+chroma_data/
+
+# IDE and editor directories
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db

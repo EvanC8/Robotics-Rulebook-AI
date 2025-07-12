@@ -1,0 +1,18 @@
+# Local server interaction
+fastapi
+uvicorn[standard]
+
+# PDF reading
+pypdf
+
+# Create embeddings
+sentence-transformers
+
+# Local database
+chromadb
+
+# Google Gemini AI
+google-generativeai
+
+# .env file access
+python-dotenv
